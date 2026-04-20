@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jisa Erosido | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+/* RESET */
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+  font-family:"Poppins",sans-serif;
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+}
+
+/* HEADER */
+header{
+  text-align:center;
+  padding:80px 20px;
+}
+header h1{font-size:3rem;}
+header p{opacity:.8}
+
+/* NAV */
+nav{
+  position:sticky;
+  top:0;
+  background:#000;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+  padding:10px;
+  z-index:1000;
+}
+nav a{
+  color:#fff;
+  text-decoration:none;
+  padding:10px 15px;
+  border-radius:8px;
+  transition:.3s;
+}
+nav a:hover{
+  background:#00c6ff;
+  color:#000;
+}
+
+/* SECTION */
+section{
+  padding:70px 20px;
+  text-align:center;
+}
+
+/* TITLES */
+h2{
+  color:#00c6ff;
+  margin-bottom:20px;
+}
+
+/* ABOUT */
+#about img{
+  width:220px;
+  border-radius:100%;
+  margin:50px 0;
+  box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+/* GRID */
+.grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+.card{
+  background:rgba(255,255,255,0.05);
+  padding:15px;
+  border-radius:12px;
+  width:200px;
+  transition:.3s;
+}
+.card:hover{transform:scale(1.05);}
+.card img{width:100%;border-radius:10px;}
+
+/* OUTPUT */
+.output-box{
+  background:#fff;
+  color:#000;
+  padding:15px;
+  border-radius:12px;
+  width:260px;
+}
+.output-box a{color:#007bff;text-decoration:none;}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  padding:10px 15px;
+  background:#00c6ff;
+  color:#000;
+  border-radius:8px;
+  text-decoration:none;
+  margin:5px;
+}
+
+/* CONTACT */
+input,textarea{
+  width:90%;
+  max-width:400px;
+  padding:10px;
+  margin:5px;
+  border:none;
+  border-radius:6px;
+}
+button{
+  padding:10px 20px;
+  background:#00c6ff;
+  border:none;
+  border-radius:6px;
+}
+
+/* MODAL */
+.modal{
+  display:none;
+  position:fixed;
+  top:0;left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.9);
+  justify-content:center;
+  align-items:center;
+}
+.modal img,.modal iframe{
+  max-width:90%;
+  max-height:90%;
+}
+.close{
+  position:absolute;
+  top:20px;
+  right:30px;
+  font-size:30px;
+  cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  background:#000;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Jisa Erosido</h1>
+  <p>Aspiring IT Professional & Creative Designer</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#Resume">Resume</a>
+  <a href="#skills">Skills</a>
+  <a href="#certificates">Certificates</a>
+  <a href="#projects">Projects</a>
+  <a href="#tutorials">Tutorials</a>
+  <a href="#outputs">Outputs</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+    </nav>    <section id="home">    
+    <h2>Hello Welcome! 👋</h2>    
+    <p>where creativity meets purpose. Explore my works, projects, and designs built with passion and heart. 🌷</p>    
+    <p class="quote">“Creativity is not just about design — it’s about turning vision into reality.”</p>    
+</section>
+
+<section id="about">
+  <h2>About Me</h2>    
+  <img src="/jes/IMG_20260419_212507.jpg" alt="Jisa Erosido">    <p><b>I'm Jisa Erosido</b> — an aspiring IT professional and creative designer passionate about combining technology and artistry. I believe that innovation begins with curiosity and grows through dedication and continuous learning.    
+   As an IT student, I aim to build not only technical skills but also problem-solving abilities that create meaningful digital solutions. I value precision, collaboration, and innovation — qualities that drive my journey toward becoming a well-rounded professional in the tech industry.</p>    <h3>🌸 Personal Motto</h3>    
+  <p class="quote">“Design with logic. Code with passion. Create with purpose.”</p>    </p>
+
+
+
+<style>
+.resume{
+    padding:80px 20px;
+    text-align:center;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+
+.resume h2{
+    font-size:2.5rem;
+    color:#00c6ff;
+}
+
+.resume-container{
+    max-width:600px;
+    margin:20px auto;
+    padding:30px;
+    background:rgba(255,255,255,0.08);
+    border-radius:15px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.resume-btns{
+    margin-top:20px;
+}
+
+.cv-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:12px 18px;
+    margin:10px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+/* VIEW BUTTON */
+.view-cv-btn{
+    background:#00c6ff;
+    color:#000;
+}
+
+/* DOWNLOAD BUTTON */
+.download-cv-btn{
+    background:#ff6f91;
+    color:#fff;
+}
+
+.cv-btn:hover{
+    transform:scale(1.05);
+}
+</style>
+
+<section id="resume" class="resume">
+    <h2>My <span>Resume</span></h2>
+
+    <div class="resume-container">
+        <p>Interested in working together? Take a look at my credentials below.</p>
+
+        <div class="resume-btns">
+
+            <a href="/n/IMG_20260420_140114.jpg"
+               target="_blank"
+               class="cv-btn view-cv-btn">
+               <ion-icon name="eye-outline"></ion-icon>
+               View Resume
+            </a>
+
+            <a href="Jisa_Resume.pdf"
+               download="Jisa_Erosido_Resume.pdf"
+               class="cv-btn download-cv-btn">
+               <ion-icon name="cloud-download-outline"></ion-icon>
+               Download CV
+            </a>
+
+        </div>
+    </div>
+</section> 
+
+
+  
+
+
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card"><img src="/l/Figma-Image.jpg"><p>Figma</p></div>
+    <div class="card"><img src="/m/premiere-pro-updates-adobe-max.jpg"><p>Video Editing</p></div>
+  </div>
+</section>
+
+<section id="certificates">
+  <h2>Certificates</h2>
+  <div class="grid">
+    <div class="card"><img src="/heyy/IMG_20260420_153106.jpg"></div>
+    <div class="card"><img src="/ty/IMG_20260419_205356.jpg"></div>
+    <div class="card"><img src="/f/IMG_20260419_205326.jpg"></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card"><img src="/jm/jammmm.jpg"></div>
+    <div class="card"><img src="/r/jem.jpg"></div>
+    <div class="card"><img src="/r/jessss.jpg"></div>
+  </div>
+</section>
+
+
+     </figcaption></figure>    
+</div>    </section>    <section
+
+
+<section id="tutorials">
+  <h2>Tutorial Video</h2>
+
+  <div class="video-container">
+
+    <div class="tutorial" data-video="https://www.youtube.com/embed/vecnvtvWmXk?autoplay=1">
+      <img src="https://img.youtube.com/vi/vecnvtvWmXk/hqdefault.jpg">
+      <p>Figma Video Editing Tutorial</p>
+    </div>
+
+    <div class="tutorial" data-video="https://www.youtube.com/embed/XKSNDxp-I14?autoplay=1">
+      <img src="https://img.youtube.com/vi/XKSNDxp-I14/hqdefault.jpg">
+      <p>Figma Tutorial 💻</p>
+    </div>
+
+    <div class="tutorial" data-video="https://www.youtube.com/embed/emWedfQiP1A?autoplay=1">
+      <img src="https://img.youtube.com/vi/emWedfQiP1A/hqdefault.jpg">
+      <p>Website Design Tutorial</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- POPUP VIDEO MODAL -->
+<div id="videoModal" class="modal">
+  <div class="modal-content">
+    <span id="closeBtn">&times;</span>
+    <iframe id="videoFrame" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+
+
+<section id="outputs">
+  <h2>Outputs</h2>
+  <div class="grid">
+    <div class="output-box">
+      <a href="https://www.canva.com" target="_blank"
+  <h2>Simple and Creative Output </h2>    
+  <div class="output-container">    
+    <div class="output-box">    
+      <a href="https://www.canva.com/design/DAGwR4Yh78Q/jxs1-n53yNYULEUB9s4qXw/edit" target="_blank">    
+       • Canva Personal Portfolio    
+      </a>    
+      <p>This is my Canva portfolio output.</p>    
+    </div>  <div class="output-box">    
+  <a href="https://www.figma.com/design/eYAiyNUby8z5z5KlVghtWm/Untitled?node-id=0-1&t=wYjlj0THpCOTQ1BM-1" target="_blank">    
+   • Figma Personal Portfolio    
+  </a>    
+  <p>This is my Figma portfolio output.</p>    
+</div>    <div class="output-box">    
+  <a href="https://www.figma.com/proto/rSjTWPlqNsGi1G3E1eeTfD/JISA?node-id=4-45&p=f&t=XBExJglGv5NTss0i-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A45" target="_blank">    
+   • Figma Personal E-commerce    
+  </a>    
+  <p>This is my Figma e-commerce project.</p>    
+</div>    </div>    
+</section>  <style>    
+  #outputs {    
+    text-align: center;    
+    padding: 40px 20px;    
+    font-family: "Poppins", sans-serif;    
+  }    #outputs h2 {
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 30px;
+}
+
+.output-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.output-box {
+background: #ffffff;
+border: 2px solid #e0e0e0;
+border-radius: 15px;
+padding: 20px;
+width: 280px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease;
+}
+
+.output-box:hover {
+transform: translateY(5px);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.output-box a {
+display: block;
+color: #007bff;
+font-size: 18px;
+font-weight: 500;
+text-decoration: none;
+margin-bottom: 10px;
+}
+
+.output-box a:hover {
+color: #0056b3;
+}
+
+.output-box p {
+font-size: 14px;
+color: #555;
+}
+  
+<title>Jisa Erosido | Contact</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+
+/* CONTACT BOX */
+.glass-card{
+    max-width:500px;
+    margin:80px auto;
+    padding:30px;
+    background:rgba(255,255,255,0.08);
+    border-radius:15px;
+    backdrop-filter:blur(10px);
+    text-align:center;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+h1{
+    margin-bottom:20px;
+    color:#00c6ff;
+}
+
+input,textarea{
+    width:90%;
+    padding:10px;
+    margin:8px 0;
+    border:none;
+    border-radius:8px;
+    outline:none;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:#00c6ff;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#00a0d6;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+    margin-top:50px;
+}
+
+.video-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:15px;
+}
+
+.tutorial{
+  cursor:pointer;
+  text-align:center;
+}
+
+.tutorial img{
+  width:100%;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.tutorial:hover img{
+  transform:scale(1.08);
+}
+
+/* MODAL */
+.modal{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.85);
+  justify-content:center;
+  align-items:center;
+}
+
+.modal-content{
+  width:90%;
+  max-width:800px;
+  position:relative;
+}
+
+iframe{
+  width:100%;
+  height:450px;
+  border-radius:10px;
+}
+
+#closeBtn{
+  position:absolute;
+  top:-35px;
+  right:0;
+  font-size:35px;
+  color:white;
+  cursor:pointer;
+}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<section id="contact">
+    <div class="glass-card">
+        <h1>Contact Me</h1>
+
+        <form action="mailto:jisaerosido@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Name" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+</section>
+
+<footer>
+    <p>Jisa Erosido | © 2026 Designed with 💜 Passion & Code</p>
+</footer>
+
+
+
+<!-- GALLERY (CLICK ZOOM) -->
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="image-container">
+<figure><img src="jem.jpg"></figure>
+<figure><img src="IMG_20251030_171857.jpg"></figure>
+<figure><img src="IMG_20251030_171815.jpg"></figure>
+</div>
+</section>
+
+<!-- TUTORIALS (CLICK PLAY VIDEO) -->
+<section id="tutorials">
+<h2>Tutorial Videos</h2>
+<div class="video-container">
+
+<div class="tutorial" data-video="https://www.youtube.com/embed/vecnvtvWmXk?autoplay=1">
+<img src="https://img.youtube.com/vi/vecnvtvWmXk/hqdefault.jpg">
+</div>
+
+<div class="tutorial" data-video="https://www.youtube.com/embed/XKSNDxp-I14?autoplay=1">
+<img src="https://img.youtube.com/vi/XKSNDxp-I14/hqdefault.jpg">
+</div>
+
+<div class="tutorial" data-video="https://www.youtube.com/embed/emWedfQiP1A?autoplay=1">
+<img src="https://img.youtube.com/vi/emWedfQiP1A/hqdefault.jpg">
+</div>
+
+</div>
+</section>
+
+<!-- OUTPUTS -->
+<section id="outputs">
+<h2>Outputs</h2>
+<div class="output-box">Canva Portfolio</div>
+<div class="output-box">Figma Design</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: jisaerosido@gmail.com</p>
+</section>
+
+<footer style="text-align:center;padding:20px;background:#222;color:#fff;">
+© 2025 Portfolio
+</footer>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+<span class="close">&times;</span>
+<img id="modalImg" style="display:none;">
+<iframe id="modalVideo" style="display:none;" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<script>
+const modal=document.getElementById("modal");
+const modalImg=document.getElementById("modalImg");
+const modalVideo=document.getElementById("modalVideo");
+const close=document.querySelector(".close");
+
+/* IMAGE ZOOM */
+document.querySelectorAll("figure img").forEach(img=>{
+img.onclick=()=>{
+modal.style.display="flex";
+modalImg.style.display="block";
+modalVideo.style.display="none";
+modalImg.src=img.src;
+}
+});
+
+/* VIDEO PLAY */
+document.querySelectorAll(".tutorial").forEach(v=>{
+v.onclick=()=>{
+modal.style.display="flex";
+modalImg.style.display="none";
+modalVideo.style.display="block";
+modalVideo.src=v.getAttribute("data-video");
+}
+});
+
+/* CLOSE */
+close.onclick=()=>{modal.style.display="none";modalVideo.src="";}
+window.onclick=e=>{if(e.target==modal){modal.style.display="none";modalVideo.src="";}}
+</script>
+</style>
+
+<section id="resume" class="resume">
+    <h2>My <span>Resume</span></h2>
+
+    <div class="resume-container">
+        <p>Interested in working together? Take a look at my credentials below.</p>
+
+        <div class="resume-btns">
+
+            <a href="/n/IMG_20260420_140114.jpg"
+               target="_blank"
+               class="cv-btn view-cv-btn">
+               <ion-icon name="eye-outline"></ion-icon>
+               View Resume
+            </a>
+
+            <a href="Jisa_Resume.pdf"
+               download="Jisa_Erosido_Resume.pdf"
+               class="cv-btn download-cv-btn">
+               <ion-icon name="cloud-download-outline"></ion-icon>
+               Download CV
+            </a>
+
+        </div>
+    </div>
+</section> 
+
+
+  
+
+
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card"><img src="/l/Figma-Image.jpg"><p>Figma</p></div>
+    <div class="card"><img src="/m/premiere-pro-updates-adobe-max.jpg"><p>Video Editing</p></div>
+  </div>
+</section>
+
+<section id="certificates">
+  <h2>Certificates</h2>
+  <div class="grid">
+    <div class="card"><img src="/heyy/IMG_20260420_153106.jpg"></div>
+    <div class="card"><img src="/ty/IMG_20260419_205356.jpg"></div>
+    <div class="card"><img src="/f/IMG_20260419_205326.jpg"></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card"><img src="/jm/jammmm.jpg"></div>
+    <div class="card"><img src="/r/jem.jpg"></div>
+    <div class="card"><img src="/r/jessss.jpg"></div>
+  </div>
+</section>
+
+
+     </figcaption></figure>    
+</div>    </section>    <section
+
+
+<section id="tutorials">
+  <h2>Tutorial Video</h2>
+
+  <div class="video-container">
+
+    <div class="tutorial" data-video="https://www.youtube.com/embed/vecnvtvWmXk?autoplay=1">
+      <img src="https://img.youtube.com/vi/vecnvtvWmXk/hqdefault.jpg">
+      <p>Figma Video Editing Tutorial</p>
+    </div>
+
+    <div class="tutorial" data-video="https://www.youtube.com/embed/XKSNDxp-I14?autoplay=1">
+      <img src="https://img.youtube.com/vi/XKSNDxp-I14/hqdefault.jpg">
+      <p>Figma Tutorial 💻</p>
+    </div>
+
+    <div class="tutorial" data-video="https://www.youtube.com/embed/emWedfQiP1A?autoplay=1">
+      <img src="https://img.youtube.com/vi/emWedfQiP1A/hqdefault.jpg">
+      <p>Website Design Tutorial</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- POPUP VIDEO MODAL -->
+<div id="videoModal" class="modal">
+  <div class="modal-content">
+    <span id="closeBtn">&times;</span>
+    <iframe id="videoFrame" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+
+
+<section id="outputs">
+  <h2>Outputs</h2>
+  <div class="grid">
+    <div class="output-box">
+      <a href="https://www.canva.com" target="_blank"
+  <h2>Simple and Creative Output </h2>    
+  <div class="output-container">    
+    <div class="output-box">    
+      <a href="https://www.canva.com/design/DAGwR4Yh78Q/jxs1-n53yNYULEUB9s4qXw/edit" target="_blank">    
+       • Canva Personal Portfolio    
+      </a>    
+      <p>This is my Canva portfolio output.</p>    
+    </div>  <div class="output-box">    
+  <a href="https://www.figma.com/design/eYAiyNUby8z5z5KlVghtWm/Untitled?node-id=0-1&t=wYjlj0THpCOTQ1BM-1" target="_blank">    
+   • Figma Personal Portfolio    
+  </a>    
+  <p>This is my Figma portfolio output.</p>    
+</div>    <div class="output-box">    
+  <a href="https://www.figma.com/proto/rSjTWPlqNsGi1G3E1eeTfD/JISA?node-id=4-45&p=f&t=XBExJglGv5NTss0i-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A45" target="_blank">    
+   • Figma Personal E-commerce    
+  </a>    
+  <p>This is my Figma e-commerce project.</p>    
+</div>    </div>    
+</section>  <style>    
+  #outputs {    
+    text-align: center;    
+    padding: 40px 20px;    
+    font-family: "Poppins", sans-serif;    
+  }    #outputs h2 {
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 30px;
+}
+
+.output-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.output-box {
+background: #ffffff;
+border: 2px solid #e0e0e0;
+border-radius: 15px;
+padding: 20px;
+width: 280px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease;
+}
+
+.output-box:hover {
+transform: translateY(5px);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.output-box a {
+display: block;
+color: #007bff;
+font-size: 18px;
+font-weight: 500;
+text-decoration: none;
+margin-bottom: 10px;
+}
+
+.output-box a:hover {
+color: #0056b3;
+}
+
+.output-box p {
+font-size: 14px;
+color: #555;
+}
+  
+<title>Jisa Erosido | Contact</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Poppins,sans-serif;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+
+/* CONTACT BOX */
+.glass-card{
+    max-width:500px;
+    margin:80px auto;
+    padding:30px;
+    background:rgba(255,255,255,0.08);
+    border-radius:15px;
+    backdrop-filter:blur(10px);
+    text-align:center;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+h1{
+    margin-bottom:20px;
+    color:#00c6ff;
+}
+
+input,textarea{
+    width:90%;
+    padding:10px;
+    margin:8px 0;
+    border:none;
+    border-radius:8px;
+    outline:none;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:#00c6ff;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#00a0d6;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+    margin-top:50px;
+}
+
+.video-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:15px;
+}
+
+.tutorial{
+  cursor:pointer;
+  text-align:center;
+}
+
+.tutorial img{
+  width:100%;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.tutorial:hover img{
+  transform:scale(1.08);
+}
+
+/* MODAL */
+.modal{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.85);
+  justify-content:center;
+  align-items:center;
+}
+
+.modal-content{
+  width:90%;
+  max-width:800px;
+  position:relative;
+}
+
+iframe{
+  width:100%;
+  height:450px;
+  border-radius:10px;
+}
+
+#closeBtn{
+  position:absolute;
+  top:-35px;
+  right:0;
+  font-size:35px;
+  color:white;
+  cursor:pointer;
+}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<section id="contact">
+    <div class="glass-card">
+        <h1>Contact Me</h1>
+
+        <form action="mailto:jisaerosido@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Name" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+</section>
+
+<footer>
+    <p>Jisa Erosido | © 2026 Designed with 💜 Passion & Code</p>
+</footer>
+
+
+
+<!-- GALLERY (CLICK ZOOM) -->
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="image-container">
+<figure><img src="jem.jpg"></figure>
+<figure><img src="IMG_20251030_171857.jpg"></figure>
+<figure><img src="IMG_20251030_171815.jpg"></figure>
+</div>
+</section>
+
+<!-- TUTORIALS (CLICK PLAY VIDEO) -->
+<section id="tutorials">
+<h2>Tutorial Videos</h2>
+<div class="video-container">
+
+<div class="tutorial" data-video="https://www.youtube.com/embed/vecnvtvWmXk?autoplay=1">
+<img src="https://img.youtube.com/vi/vecnvtvWmXk/hqdefault.jpg">
+</div>
+
+<div class="tutorial" data-video="https://www.youtube.com/embed/XKSNDxp-I14?autoplay=1">
+<img src="https://img.youtube.com/vi/XKSNDxp-I14/hqdefault.jpg">
+</div>
+
+<div class="tutorial" data-video="https://www.youtube.com/embed/emWedfQiP1A?autoplay=1">
+<img src="https://img.youtube.com/vi/emWedfQiP1A/hqdefault.jpg">
+</div>
+
+</div>
+</section>
+
+<!-- OUTPUTS -->
+<section id="outputs">
+<h2>Outputs</h2>
+<div class="output-box">Canva Portfolio</div>
+<div class="output-box">Figma Design</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: jisaerosido@gmail.com</p>
+</section>
+
+<footer style="text-align:center;padding:20px;background:#222;color:#fff;">
+© 2025 Portfolio
+</footer>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+<span class="close">&times;</span>
+<img id="modalImg" style="display:none;">
+<iframe id="modalVideo" style="display:none;" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<script>
+const modal=document.getElementById("modal");
+const modalImg=document.getElementById("modalImg");
+const modalVideo=document.getElementById("modalVideo");
+const close=document.querySelector(".close");
+
+/* IMAGE ZOOM */
+document.querySelectorAll("figure img").forEach(img=>{
+img.onclick=()=>{
+modal.style.display="flex";
+modalImg.style.display="block";
+modalVideo.style.display="none";
+modalImg.src=img.src;
+}
+});
+
+/* VIDEO PLAY */
+document.querySelectorAll(".tutorial").forEach(v=>{
+v.onclick=()=>{
+modal.style.display="flex";
+modalImg.style.display="none";
+modalVideo.style.display="block";
+modalVideo.src=v.getAttribute("data-video");
+}
+});
+
+/* CLOSE */
+close.onclick=()=>{modal.style.display="none";modalVideo.src="";}
+window.onclick=e=>{if(e.target==modal){modal.style.display="none";modalVideo.src="";}}
+</script>
+/* CONTACT BOX */
+.glass-card{
+    max-width:500px;
+    margin:80px auto;
+    padding:30px;
+    background:rgba(255,255,255,0.08);
+    border-radius:15px;
+    backdrop-filter:blur(10px);
+    text-align:center;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+h1{
+    margin-bottom:20px;
+    color:#00c6ff;
+}
+
+input,textarea{
+    width:90%;
+    padding:10px;
+    margin:8px 0;
+    border:none;
+    border-radius:8px;
+    outline:none;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:#00c6ff;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#00a0d6;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+    margin-top:50px;
+}
+
+.video-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:15px;
+}
+
+.tutorial{
+  cursor:pointer;
+  text-align:center;
+}
+
+.tutorial img{
+  width:100%;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.tutorial:hover img{
+  transform:scale(1.08);
+}
+
+/* MODAL */
+.modal{
+  display:none;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.85);
+  justify-content:center;
+  align-items:center;
+}
+
+.modal-content{
+  width:90%;
+  max-width:800px;
+  position:relative;
+}
+
+iframe{
+  width:100%;
+  height:450px;
+  border-radius:10px;
+}
+
+#closeBtn{
+  position:absolute;
+  top:-35px;
+  right:0;
+  font-size:35px;
+  color:white;
+  cursor:pointer;
+}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<section id="contact">
+    <div class="glass-card">
+        <h1>Contact Me</h1>
+
+        <form action="mailto:jisaerosido@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Name" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+</section>
+
+<footer>
+    <p>Jisa Erosido | © 2026 Designed with 💜 Passion & Code</p>
+</footer>
+
+
+
+<!-- GALLERY (CLICK ZOOM) -->
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="image-container">
+<figure><img src="jem.jpg"></figure>
+<figure><img src="IMG_20251030_171857.jpg"></figure>
+<figure><img src="IMG_20251030_171815.jpg"></figure>
+</div>
+</section>
+
+<!-- TUTORIALS (CLICK PLAY VIDEO) -->
+<section id="tutorials">
+<h2>Tutorial Videos</h2>
+<div class="video-container">
+
+<div class="tutorial" data-video="https://www.youtube.com/embed/vecnvtvWmXk?autoplay=1">
+<img src="https://img.youtube.com/vi/vecnvtvWmXk/hqdefault.jpg">
+</div>
+
+<div class="tutorial" data-video="https://www.youtube.com/embed/XKSNDxp-I14?autoplay=1">
+<img src="https://img.youtube.com/vi/XKSNDxp-I14/hqdefault.jpg">
+</div>
+
+<div class="tutorial" data-video="https://www.youtube.com/embed/emWedfQiP1A?autoplay=1">
+<img src="https://img.youtube.com/vi/emWedfQiP1A/hqdefault.jpg">
+</div>
+
+</div>
+</section>
+
+<!-- OUTPUTS -->
+<section id="outputs">
+<h2>Outputs</h2>
+<div class="output-box">Canva Portfolio</div>
+<div class="output-box">Figma Design</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: jisaerosido@gmail.com</p>
+</section>
+
+<footer style="text-align:center;padding:20px;background:#222;color:#fff;">
+© 2025 Portfolio
+</footer>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+<span class="close">&times;</span>
+<img id="modalImg" style="display:none;">
+<iframe id="modalVideo" style="display:none;" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<script>
+const modal=document.getElementById("modal");
+const modalImg=document.getElementById("modalImg");
+const modalVideo=document.getElementById("modalVideo");
+const close=document.querySelector(".close");
+
+/* IMAGE ZOOM */
+document.querySelectorAll("figure img").forEach(img=>{
+img.onclick=()=>{
+modal.style.display="flex";
+modalImg.style.display="block";
+modalVideo.style.display="none";
+modalImg.src=img.src;
+}
+});
+
+/* VIDEO PLAY */
+document.querySelectorAll(".tutorial").forEach(v=>{
+v.onclick=()=>{
+modal.style.display="flex";
+modalImg.style.display="none";
+modalVideo.style.display="block";
+modalVideo.src=v.getAttribute("data-video");
+}
+});
+
+/* CLOSE */
+close.onclick=()=>{modal.style.display="none";modalVideo.src="";}
+window.onclick=e=>{if(e.target==modal){modal.style.display="none";modalVideo.src="";}}
+</script>
+</body>
+</html>
+
+
+
+
