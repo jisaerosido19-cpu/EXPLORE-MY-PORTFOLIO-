@@ -186,7 +186,7 @@ footer{
 
 <section id="about">
   <h2>About Me</h2>    
-  <img src="IMG_20260419_212507.jpg" alt="Jisa Erosido">    <p><b>I'm Jisa Erosido</b> — an aspiring IT professional and creative designer passionate about combining technology and artistry. I believe that innovation begins with curiosity and grows through dedication and continuous learning.    
+  <img src="/jes/IMG_20260419_212507.jpg" alt="Jisa Erosido">    <p><b>I'm Jisa Erosido</b> — an aspiring IT professional and creative designer passionate about combining technology and artistry. I believe that innovation begins with curiosity and grows through dedication and continuous learning.    
    As an IT student, I aim to build not only technical skills but also problem-solving abilities that create meaningful digital solutions. I value precision, collaboration, and innovation — qualities that drive my journey toward becoming a well-rounded professional in the tech industry.</p>    <h3>🌸 Personal Motto</h3>    
   <p class="quote">“Design with logic. Code with passion. Create with purpose.”</p>    </p>
 
@@ -256,7 +256,7 @@ footer{
 
         <div class="resume-btns">
 
-            <a href="IMG_20260420_140114.jpg"
+            <a href="/n/IMG_20260420_140114.jpg"
                target="_blank"
                class="cv-btn view-cv-btn">
                <ion-icon name="eye-outline"></ion-icon>
@@ -290,22 +290,24 @@ footer{
 <section id="certificates">
   <h2>Certificates</h2>
   <div class="grid">
-    <div class="card"><img src="IMG_20260420_153106.jpg"></div>
-    <div class="card"><img src="IMG_20260419_205356.jpg"></div>
-    <div class="card"><img src="IMG_20260419_205326.jpg"></div>
+    <div class="card"><img src="/heyy/IMG_20260420_153106.jpg"></div>
+    <div class="card"><img src="/ty/IMG_20260419_205356.jpg"></div>
+    <div class="card"><img src="/f/IMG_20260419_205326.jpg"></div>
   </div>
 </section>
 
 <section id="projects">
   <h2>Projects</h2>
   <div class="grid">
-    <div class="card"><img src="jammmm.jpg"></div>
-    <div class="card"><img src="jem.jpg"></div>
-    <div class="card"><img src="jessss.jpg"></div>
+    <div class="card"><img src="/jm/jammmm.jpg"></div>
+    <div class="card"><img src="/r/jem.jpg"></div>
+    <div class="card"><img src="/r/jessss.jpg"></div>
   </div>
 </section>
 
 
+     </figcaption></figure>    
+</div>    </section>    <section
 
 
 <section id="tutorials">
@@ -343,6 +345,79 @@ footer{
 
 
 
+<section id="outputs">
+  <h2>Outputs</h2>
+  <div class="grid">
+    <div class="output-box">
+      <a href="https://www.canva.com" target="_blank"
+  <h2>Simple and Creative Output </h2>    
+  <div class="output-container">    
+    <div class="output-box">    
+      <a href="https://www.canva.com/design/DAGwR4Yh78Q/jxs1-n53yNYULEUB9s4qXw/edit" target="_blank">    
+       • Canva Personal Portfolio    
+      </a>    
+      <p>This is my Canva portfolio output.</p>    
+    </div>  <div class="output-box">    
+  <a href="https://www.figma.com/design/eYAiyNUby8z5z5KlVghtWm/Untitled?node-id=0-1&t=wYjlj0THpCOTQ1BM-1" target="_blank">    
+   • Figma Personal Portfolio    
+  </a>    
+  <p>This is my Figma portfolio output.</p>    
+</div>    <div class="output-box">    
+  <a href="https://www.figma.com/proto/rSjTWPlqNsGi1G3E1eeTfD/JISA?node-id=4-45&p=f&t=XBExJglGv5NTss0i-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A45" target="_blank">    
+   • Figma Personal E-commerce    
+  </a>    
+  <p>This is my Figma e-commerce project.</p>    
+</div>    </div>    
+</section>  <style>    
+  #outputs {    
+    text-align: center;    
+    padding: 40px 20px;    
+    font-family: "Poppins", sans-serif;    
+  }    #outputs h2 {
+font-size: 28px;
+font-weight: 600;
+margin-bottom: 30px;
+}
+
+.output-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.output-box {
+background: #ffffff;
+border: 2px solid #e0e0e0;
+border-radius: 15px;
+padding: 20px;
+width: 280px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease;
+}
+
+.output-box:hover {
+transform: translateY(5px);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.output-box a {
+display: block;
+color: #007bff;
+font-size: 18px;
+font-weight: 500;
+text-decoration: none;
+margin-bottom: 10px;
+}
+
+.output-box a:hover {
+color: #0056b3;
+}
+
+.output-box p {
+font-size: 14px;
+color: #555;
+}
   
 <title>Jisa Erosido | Contact</title>
 
@@ -577,20 +652,5 @@ window.onclick=e=>{if(e.target==modal){modal.style.display="none";modalVideo.src
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
