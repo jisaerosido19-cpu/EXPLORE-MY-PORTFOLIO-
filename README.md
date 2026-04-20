@@ -341,8 +341,6 @@ footer{
 
 
 
-
-
 <section id="outputs">
   <h2>Outputs</h2>
   <div class="grid">
@@ -411,6 +409,8 @@ color: #0056b3;
 font-size: 14px;
 color: #555;
 }
+
+
   
 <title>Jisa Erosido | Contact</title>
 
