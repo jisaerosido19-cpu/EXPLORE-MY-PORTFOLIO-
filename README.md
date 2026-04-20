@@ -349,7 +349,6 @@ footer{
   <h2>Outputs</h2>
   <div class="grid">
     <div class="output-box">
-      <a href="https://www.canva.com" target="_blank"
   <h2>Simple and Creative Output </h2>    
   <div class="output-container">    
     <div class="output-box">    
@@ -357,13 +356,11 @@ footer{
        • Canva Personal Portfolio    
       </a>    
       <p>This is my Canva portfolio output.</p>    
-    </div>  <div class="output-box">    
-  <a href="https://www.figma.com/design/eYAiyNUby8z5z5KlVghtWm/Untitled?node-id=0-1&t=wYjlj0THpCOTQ1BM-1" target="_blank">    
+    </div>  <div class="output-box">        
    • Figma Personal Portfolio    
   </a>    
   <p>This is my Figma portfolio output.</p>    
-</div>    <div class="output-box">    
-  <a href="https://www.figma.com/proto/rSjTWPlqNsGi1G3E1eeTfD/JISA?node-id=4-45&p=f&t=XBExJglGv5NTss0i-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A45" target="_blank">    
+</div>    <div class="output-box">    " target="_blank">    
    • Figma Personal E-commerce    
   </a>    
   <p>This is my Figma e-commerce project.</p>    
