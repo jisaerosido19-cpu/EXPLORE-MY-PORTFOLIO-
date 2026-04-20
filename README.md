@@ -257,7 +257,7 @@ footer{
 
         <div class="resume-btns">
 
-            <a href="/n/IMG_20260420_140114.jpg"
+            <a href="IMG_20260420_140114.jpg"
                target="_blank"
                class="cv-btn view-cv-btn">
                <ion-icon name="eye-outline"></ion-icon>
@@ -283,26 +283,26 @@ footer{
 <section id="skills">
   <h2>Skills</h2>
   <div class="grid">
-    <div class="card"><img src="/l/Figma-Image.jpg"><p>Figma</p></div>
-    <div class="card"><img src="/m/premiere-pro-updates-adobe-max.jpg"><p>Video Editing</p></div>
+    <div class="card"><img src="Figma-Image.jpg"><p>Figma</p></div>
+    <div class="card"><img src="premiere-pro-updates-adobe-max.jpg"><p>Video Editing</p></div>
   </div>
 </section>
 
 <section id="certificates">
   <h2>Certificates</h2>
   <div class="grid">
-    <div class="card"><img src="/heyy/IMG_20260420_153106.jpg"></div>
-    <div class="card"><img src="/ty/IMG_20260419_205356.jpg"></div>
-    <div class="card"><img src="/f/IMG_20260419_205326.jpg"></div>
+    <div class="card"><img src="IMG_20260420_153106.jpg"></div>
+    <div class="card"><img src="IMG_20260419_205356.jpg"></div>
+    <div class="card"><img src="IMG_20260419_205326.jpg"></div>
   </div>
 </section>
 
 <section id="projects">
   <h2>Projects</h2>
   <div class="grid">
-    <div class="card"><img src="/jm/jammmm.jpg"></div>
-    <div class="card"><img src="/r/jem.jpg"></div>
-    <div class="card"><img src="/r/jessss.jpg"></div>
+    <div class="card"><img src="jammmm.jpg"></div>
+    <div class="card"><img src="jem.jpg"></div>
+    <div class="card"><img src="jessss.jpg"></div>
   </div>
 </section>
 
