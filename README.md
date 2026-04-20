@@ -306,8 +306,6 @@ footer{
 </section>
 
 
-     </figcaption></figure>    
-</div>    </section>    <section
 
 
 <section id="tutorials">
@@ -352,7 +350,7 @@ footer{
   <h2>Simple and Creative Output </h2>    
   <div class="output-container">    
     <div class="output-box">    
-      <a href="https://www.canva.com/design/DAGwR4Yh78Q/jxs1-n53yNYULEUB9s4qXw/edit" target="_blank">    
+          
        • Canva Personal Portfolio    
       </a>    
       <p>This is my Canva portfolio output.</p>    
@@ -363,9 +361,7 @@ footer{
 </div>    <div class="output-box">    " target="_blank">    
    • Figma Personal E-commerce    
   </a>    
-  <p>This is my Figma e-commerce project.</p>    
-</div>    </div>    
-</section>  <style>    
+  <p>This is my Figma e-commerce project.</p>     
   #outputs {    
     text-align: center;    
     padding: 40px 20px;    
