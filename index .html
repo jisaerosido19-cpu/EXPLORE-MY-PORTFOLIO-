@@ -186,7 +186,7 @@ footer{
 
 <section id="about">
   <h2>About Me</h2>    
-  <img src="/jes/IMG_20260419_212507.jpg" alt="Jisa Erosido">    <p><b>I'm Jisa Erosido</b> — an aspiring IT professional and creative designer passionate about combining technology and artistry. I believe that innovation begins with curiosity and grows through dedication and continuous learning.    
+  <img src="IMG_20260419_212507.jpg" alt="Jisa Erosido">    <p><b>I'm Jisa Erosido</b> — an aspiring IT professional and creative designer passionate about combining technology and artistry. I believe that innovation begins with curiosity and grows through dedication and continuous learning.    
    As an IT student, I aim to build not only technical skills but also problem-solving abilities that create meaningful digital solutions. I value precision, collaboration, and innovation — qualities that drive my journey toward becoming a well-rounded professional in the tech industry.</p>    <h3>🌸 Personal Motto</h3>    
   <p class="quote">“Design with logic. Code with passion. Create with purpose.”</p>    </p>
 
@@ -256,7 +256,7 @@ footer{
 
         <div class="resume-btns">
 
-            <a href="/n/IMG_20260420_140114.jpg"
+            <a href="IMG_20260420_140114.jpg"
                target="_blank"
                class="cv-btn view-cv-btn">
                <ion-icon name="eye-outline"></ion-icon>
@@ -290,18 +290,18 @@ footer{
 <section id="certificates">
   <h2>Certificates</h2>
   <div class="grid">
-    <div class="card"><img src="/heyy/IMG_20260420_153106.jpg"></div>
-    <div class="card"><img src="/ty/IMG_20260419_205356.jpg"></div>
-    <div class="card"><img src="/f/IMG_20260419_205326.jpg"></div>
+    <div class="card"><img src="IMG_20260420_153106.jpg"></div>
+    <div class="card"><img src="IMG_20260419_205356.jpg"></div>
+    <div class="card"><img src="IMG_20260419_205326.jpg"></div>
   </div>
 </section>
 
 <section id="projects">
   <h2>Projects</h2>
   <div class="grid">
-    <div class="card"><img src="/jm/jammmm.jpg"></div>
-    <div class="card"><img src="/r/jem.jpg"></div>
-    <div class="card"><img src="/r/jessss.jpg"></div>
+    <div class="card"><img src="jammmm.jpg"></div>
+    <div class="card"><img src="jem.jpg"></div>
+    <div class="card"><img src="jessss.jpg"></div>
   </div>
 </section>
 
